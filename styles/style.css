@@ -1,0 +1,99 @@
+
+.ground{
+    
+    background-image: url(../Assests/2st.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-top: 150px;
+    
+    
+}
+#signIn{
+    display: none;
+}
+#part2{
+    display: none;
+}
+
+.logo{
+    text-align: center;
+
+}
+
+.back{
+    background-color:lightgray;
+   margin:  auto;
+    width: 50%;
+    /* opacity: 0.9; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.out{
+    outline: 0;
+    border: 1px solid black;
+    width: 70%;
+}
+
+.line{
+    width: 5%;
+    margin: 0 auto;
+    color: red;
+    font-size: 30px;
+}
+
+.dis{
+    display: none;
+}
+#bar{
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: auto;
+    background-color: white;
+}
+
+.bus{
+    background: black;
+}
+.wid{
+    width: 70%;
+}
+.play{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hih{
+    min-height: 200px;
+}
+
+/* ################### Media Queries ######################### */
+@media screen and (max-width: 1200px) {
+
+.back{
+    width: 50%;
+}
+}
+@media screen and (max-width: 992px) {
+
+.back{ 
+    width: 60%;
+}
+}
+@media screen and (max-width: 768px) {
+
+.back{
+    width: 70%;
+}
+}
+@media screen and (max-width: 576px) {
+
+.back{
+    width: 90%;
+}
+}
